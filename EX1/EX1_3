@@ -1,0 +1,9 @@
+def maxedge(x,y):
+    '''
+    (int) -> int
+    return the maximum Edge of a triangle by doing this! (X+Y-1)'''
+    maxedge=x+y-1
+    return maxedge
+x=int(input("please input x:"))
+y=int(input("please input y:"))
+print(f"the answer is {x+y-1}")
