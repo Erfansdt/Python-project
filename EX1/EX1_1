@@ -1,0 +1,8 @@
+def EX1_1(x):
+    '''
+    (int)->int
+    return the next number of (x)'''
+    EX1_1=x+1
+    return EX1_1
+x=int(input("please input x:"))
+print(f"the answer is {x+1}")  
