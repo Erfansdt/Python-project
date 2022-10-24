@@ -1,0 +1,11 @@
+def EX1_5(x):
+    '''
+    ((this define classify your age by returning the number of your age and tell you that you are infant,child,teenager,or adult ))'''
+    if x==1:
+        return "you are infant"
+    elif x<=13:
+        return "you are child"
+    elif x<=20:
+        return "you are teenager"
+    else:
+        return "you are adult"
