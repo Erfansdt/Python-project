@@ -1,0 +1,9 @@
+def area(x,y):
+    '''
+    (float,float) -> float
+    return the area of the triangle '''
+    area=x*y/2
+    return area
+x=float(input("please input x:"))
+y=float(input("please input y:"))
+print(f"The triangle area is {area(x,y)}")
