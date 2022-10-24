@@ -1,0 +1,20 @@
+def EX1_4(x):
+    '''
+    ((This define return Numbers to Days of the Week 
+    The Numbers must be between 1 to 7!))'''
+    if x==1:
+        return "Today is Saturday!"
+    elif x==2:
+        return "Today is Sunday!"
+    elif x==3:
+        return "Today is Monday!"
+    elif x==4:
+        return "Today is Tuesday!"
+    elif x==5:
+        return "Today is Wednesday!"
+    elif x==6:
+        return "Today is Thursday!"
+    elif x==7:
+        return "Today is Friday!"
+    else:
+        return "Please choose numbers between 1to7"
