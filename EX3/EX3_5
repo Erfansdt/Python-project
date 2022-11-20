@@ -1,0 +1,10 @@
+def EX3_5(portion_list):
+    length=0
+    for portion in portion_list:
+        if portion < 0 :
+            portion *= -1
+        length += portion
+    if length == 25:
+        return True
+    else:
+        return False
