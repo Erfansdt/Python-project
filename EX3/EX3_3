@@ -1,0 +1,21 @@
+coordinate = [0,0]
+def coordinates(dir_list):
+    for direction in dir_list:
+        if direction == 'n':
+            coordinate[0] += 1
+        elif direction == 's':
+            coordinate[0] -= 1
+        elif direction == 'e':
+            coordinate[1] += 1
+        elif direction == 'w':
+            coordinate[1] -=1
+    return coordinate
+def EX3_3(dir_list):
+    robot_default_dir = [["e", "n", "e", "e", "n"],["w", "n", "w", "n", "w", "w", "n"]]
+    dis_loc1 = coordinates(robot_default_dir[0])
+    dis_loc2 = coordinates(robot_default_dir[0])
+    dis_arbitrary_loc = coordinates(dir_list)
+    if dis_arbitrary_loc == dis_loc1 or dis_arbitrary_loc == dis_loc2:
+        return True
+    else:
+        return False
