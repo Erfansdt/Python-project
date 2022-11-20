@@ -1,0 +1,16 @@
+def EX3_1(number):
+    '''
+    (int) -> int
+    '''
+    step_num = 0
+    if number > 0 :
+           while number != 1:
+                if number % 2 == 0:
+                        number /= 2
+                else:
+                    number *= 3
+                    number += 1
+                step_num += 1
+    else:
+        return "your number mus be positive!!"
+    return step_num
