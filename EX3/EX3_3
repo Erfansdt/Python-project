@@ -13,7 +13,7 @@ def coordinates(dir_list):
 def EX3_3(dir_list):
     robot_default_dir = [["e", "n", "e", "e", "n"],["w", "n", "w", "n", "w", "w", "n"]]
     dis_loc1 = coordinates(robot_default_dir[0])
-    dis_loc2 = coordinates(robot_default_dir[0])
+    dis_loc2 = coordinates(robot_default_dir[1])
     dis_arbitrary_loc = coordinates(dir_list)
     if dis_arbitrary_loc == dis_loc1 or dis_arbitrary_loc == dis_loc2:
         return True
